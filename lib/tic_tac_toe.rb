@@ -134,7 +134,7 @@ end
 
 def play
   turn
-  
+
   if draw?
     print "Cat's Game!"
   end
