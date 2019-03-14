@@ -1,4 +1,4 @@
-require 'pry'
+
 class TicTacToe
 
   def initialize(board = nil)
@@ -62,7 +62,7 @@ class TicTacToe
       index = input_to_index(input)
     end
     move(index,current_player)
-    binding.pry
+    binding.
     display_board
 
   end
