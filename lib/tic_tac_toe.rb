@@ -137,12 +137,13 @@ def play
 
   if draw?
     print "Cat's Game!"
-  end
-  if won?
+  elsif won?
     print "Congratulations #{winner}!"
+  elsif !over?
+    turn
   end
 
-  end
+end
 end
 
 #tictactoe = TicTacToe.new("board")
