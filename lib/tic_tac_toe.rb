@@ -141,11 +141,7 @@ def play
   if won?
     print "Congratulations #{winner}!"
   end
-
-   if !over?
-    play
-  end
-
+  
   end
 end
 
