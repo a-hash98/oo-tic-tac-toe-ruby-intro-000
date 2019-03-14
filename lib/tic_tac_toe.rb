@@ -134,14 +134,16 @@ end
 
 def play
   turn
-  until over?
-    turn
-  end
+  
   if draw?
     print "Cat's Game!"
   end
   if won?
     print "Congratulations #{winner}!"
+  end
+
+  until over?
+    turn
   end
 
   end
