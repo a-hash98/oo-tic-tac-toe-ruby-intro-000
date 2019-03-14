@@ -142,8 +142,8 @@ def play
     print "Congratulations #{winner}!"
   end
 
-  until over?
-    turn
+   if !over?
+    play
   end
 
   end
