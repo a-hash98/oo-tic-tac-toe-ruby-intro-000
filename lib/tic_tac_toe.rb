@@ -141,7 +141,7 @@ def play
   if won?
     print "Congratulations #{winner}!"
   end
-  
+
   end
 end
 
